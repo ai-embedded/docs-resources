@@ -3,20 +3,20 @@ extends: default
 font:
   catalog:
     merge: true
-    sans-serif: Atkinson-Hyperlegible-Regular-102.ttf
+    sans-serif: Atkinson-Hyperlegible-Regular-102.otf
  #Atkinson Hyperlegible
     body:
-      normal: Atkinson-Hyperlegible-Regular-102.ttf
-      bold: Atkinson-Hyperlegible-Bold-102.ttf
-      italic: Atkinson-Hyperlegible-Italic-102.ttf
-      bold_italic: Atkinson-Hyperlegible-BoldItalic-102.ttf
-      header_thin: Atkinson-Hyperlegible-Regular-102.ttf
+      normal: Atkinson-Hyperlegible-Regular-102.otf
+      bold: Atkinson-Hyperlegible-Bold-102.otf
+      italic: Atkinson-Hyperlegible-Italic-102.otf
+      bold_italic: Atkinson-Hyperlegible-BoldItalic-102.otf
+      header_thin: Atkinson-Hyperlegible-Regular-102.otf
     headings:
-      normal: Atkinson-Hyperlegible-Regular-102.ttf
-      bold: Atkinson-Hyperlegible-Bold-102.ttf
-      italic: Atkinson-Hyperlegible-Italic-102.ttf
-      bold_italic: Atkinson-Hyperlegible-BoldItalic-102.ttf
-      light: Atkinson-Hyperlegible-Regular-102.ttf
+      normal: Atkinson-Hyperlegible-Regular-102.otf
+      bold: Atkinson-Hyperlegible-Bold-102.otf
+      italic: Atkinson-Hyperlegible-Italic-102.otf
+      bold_italic: Atkinson-Hyperlegible-BoldItalic-102.otf
+      light: Atkinson-Hyperlegible-Regular-102.otf
     # Fira Code
     code:
       normal: FiraCode-Regular.ttf
@@ -41,6 +41,12 @@ font:
       italic: droid-sans-fallback.ttf
       bold: droid-sans-fallback.ttf
       bold_italic: droid-sans-fallback.ttf
+    # Noto Sans CJK provides comprehensive Chinese character support
+    Noto CJK:
+      normal: NotoSansCJK-Regular.ttc
+      bold: NotoSansCJK-Regular.ttc
+      italic: NotoSansCJK-Regular.ttc
+      bold_italic: NotoSansCJK-Regular.ttc
     JetBrainsMono:
       normal: JetBrainsMono-Regular.ttf
       italic: JetBrainsMono-Italic.ttf
@@ -49,6 +55,7 @@ font:
     # M+ 1p supports Latin, Latin-1 Supplement, Latin Extended, Greek, Cyrillic, Vietnamese, Japanese & an assortment of symbols
     # It also provides arrows for ->, <-, => and <= replacements in case these glyphs are missing from font
   fallbacks:
+    - Noto CJK
     - M+ 1p Fallback
     - Droid Fallback
   svg:
